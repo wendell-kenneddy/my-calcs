@@ -16,7 +16,6 @@
     "vite": "^2.8.0"
   },
   "dependencies": {
-    "mathjs": "^10.1.1",
-    "vite-plugin-pwa": "^0.11.13"
+    "mathjs": "^10.1.1"
   }
 }
