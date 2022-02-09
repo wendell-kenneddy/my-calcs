@@ -30,7 +30,6 @@ To develop this app, I used these technologies:
 ## ✨ Features
 
 - Execute arithmetic operations
-- PWA features such as offline support
 - Responsivity
 
 ---
