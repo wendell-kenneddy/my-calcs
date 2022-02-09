@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A simple and intuitive calculator." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="My Calcs" />
+    <meta property="og:site_name" content="My Calcs" />
+    <meta
+      property="og:description"
+      content="A simple and intuitive calculator."
+    />
+    <!-- <meta property="og:url" content="" /> -->
+    <meta property="og:locale" content="en" />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:title" content="My Calcs" />
+    <meta
+      property="twitter:description"
+      content="A simple and intuitive calculator."
+    />
+    <!-- <meta property="twitter:url" content="" /> -->
+    <link rel="icon" href="/icons/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <meta name="theme-color" content="#1f2937" />
+    <title>My Calcs</title>
+
+    <!-- <link rel="canonical" href="" /> -->
+    <link rel="manifest" href="/manifest.json" />
+  </head>
+
+  <body class="w-screen bg-gray-800">
+    <main class="w-[90vw] max-w-[400px] mx-auto my-10">
+      <h1 class="sr-only">My Calcs</h1>
+
+      <div
+        id="display"
+        class="w-full text-white text-3xl px-4 font-medium text-right overflow-auto tracking-widest"
+      >
+        0
+      </div>
+
+      <div
+        id="buttons"
+        class="bg-gray-900 mt-4 p-4 w-full grid grid-cols-4 gap-2 rounded"
+      >
+        <button
+          class="bg-gray-700 transition-all ease-in-out hover:brightness-75 p-4 text-white text-xl font-medium rounded"
+        >
+          7
+        </button>
+        <button
+          class="bg-gray-700 transition-all ease-in-out hover:brightness-75 p-4 text-white text-xl font-medium rounded"
+        >
+          8
+        </button>
+        <button
+          class="bg-gray-700 transition-all ease-in-out hover:brightness-75 p-4 text-white text-xl font-medium rounded"
+        >
+          9
+        </button>
+        <button
+          class="bg-gray-700 transition-all ease-in-out hover:brightness-75 p-4 text-white text-xl font-medium rounded"
+        >
+          *
+        </button>
+        <button
+          class="bg-gray-700 transition-all ease-in-out hover:brightness-75 p-4 text-white text-xl font-medium rounded"
+        >
+          4
+        </button>
+        <button
+          class="bg-gray-700 transition-all ease-in-out hover:brightness-75 p-4 text-white text-xl font-medium rounded"
+        >
+          5
+        </button>
+        <button
+          class="bg-gray-700 transition-all ease-in-out hover:brightness-75 p-4 text-white text-xl font-medium rounded"
+        >
+          6
+        </button>
+        <button
+          class="bg-gray-700 transition-all ease-in-out hover:brightness-75 p-4 text-white text-xl font-medium rounded"
+        >
+          -
+        </button>
+        <button
+          class="bg-gray-700 transition-all ease-in-out hover:brightness-75 p-4 text-white text-xl font-medium rounded"
+        >
+          1
+        </button>
+        <button
+          class="bg-gray-700 transition-all ease-in-out hover:brightness-75 p-4 text-white text-xl font-medium rounded"
+        >
+          2
+        </button>
+        <button
+          class="bg-gray-700 transition-all ease-in-out hover:brightness-75 p-4 text-white text-xl font-medium rounded"
+        >
+          3
+        </button>
+        <button
+          class="bg-gray-700 transition-all ease-in-out hover:brightness-75 p-4 text-white text-xl font-medium rounded"
+        >
+          +
+        </button>
+        <button
+          class="bg-gray-700 transition-all ease-in-out hover:brightness-75 p-4 text-white text-xl font-medium rounded"
+        >
+          C
+        </button>
+        <button
+          class="bg-gray-700 transition-all ease-in-out hover:brightness-75 p-4 text-white text-xl font-medium rounded"
+        >
+          0
+        </button>
+        <button
+          class="bg-gray-700 transition-all ease-in-out hover:brightness-75 p-4 text-white text-xl font-medium rounded"
+        >
+          .
+        </button>
+        <button
+          class="bg-gray-700 transition-all ease-in-out hover:brightness-75 p-4 text-white text-xl font-medium rounded"
+        >
+          /
+        </button>
+      </div>
+
+      <button
+        id="evaluate"
+        name="Resultado"
+        class="w-full h-12 my-4 p-4 rounded bg-orange-500 text-white font-bold text-2xl flex items-center justify-center hover:brightness-75 transition-all ease-in-out"
+      >
+        =
+      </button>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
